@@ -1,0 +1,20 @@
+@media screen and (max-width:600px) {
+    .head__logo {
+        width: 40%;
+        padding-right: .5rem;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .head__logo {
+        width: 100px;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width:996px) {
+    .head__logo {
+        width: 40%;
+        padding-right: 2rem;
+    }
+}

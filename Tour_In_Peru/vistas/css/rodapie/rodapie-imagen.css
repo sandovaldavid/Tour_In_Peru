@@ -1,0 +1,20 @@
+.rodapie__imagen {
+    width: 25%;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .rodapie__imagen {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .rodapie__imagen {}
+}
+
+@media screen and (min-width:996px) {
+    .rodapie__imagen {
+        height: 5%;
+    }
+}

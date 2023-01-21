@@ -1,0 +1,13 @@
+.head__div-nav {
+    display: inline-block;
+
+}
+
+.head__ul {
+    display: flex;
+    align-content: space-between;
+}
+
+.head_li {
+    margin-left: 3rem;
+}

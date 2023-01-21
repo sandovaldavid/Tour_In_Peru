@@ -1,0 +1,40 @@
+/* Estilos generales */
+.section_form {
+    padding: 1rem 4rem 4rem 4rem;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+/* Estilos para las etiquetas label */
+.lab_reserva {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los input */
+.inp_reserva {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón */
+.inp_reserva [type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

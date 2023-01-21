@@ -27,8 +27,6 @@
     <link rel="stylesheet" href="css/rodapie-sobreNosotros/form__sobreNosotros.css">
     <link rel="stylesheet" href="css/rodapie-sobreNosotros/lista-sobreNosotros.css">
     <link rel="stylesheet" href="css/head/head_nav.css">
-    <link rel="stylesheet" href="css/paquetes.css">
-    <link rel="stylesheet" href="css/style-reserva.css">
 </head>
 <body>
     <section class="head container">
@@ -47,27 +45,20 @@
 
         </div>
     </section>
-    <section class="section_form">
-        <form>
-            <label class="lab_reserva" for="idReserva"> ID de la reserva:</label>
-            <input class="inp_reserva" type="text" id="idReserva" name="idReserva">
-    
-            <label class="lab_reserva" for="fechaReserva"> Fecha de la reserva:</label>
-            <input class="inp_reserva" type="date" id="fechaReserva" name="fechaReserva">
-    
-            <label class="lab_reserva" for="numeroCuenta"> Número de cuenta:</label>
-            <input class="inp_reserva" type="number" id="numeroCuenta" name="numeroCuenta">
-    
-            <label class="lab_reserva" for="tipo"> Tipo:</label>
-            <input class="inp_reserva" type="text" id="tipo" name="tipo">
-    
-            <label class="lab_reserva" for="nombreAgencia"> Nombre de la agencia:</label>
-            <input class="inp_reserva" type="text" id="nombreAgencia" name="nombreAgencia">
-    
-            <label class="lab_reserva" for="estado"> Estado:</label>
-            <input class="inp_reserva" type="text" id="estado" name="estado">
-    
-            <input class="inp_reserva" type="submit" value="Guardar">
+    <section class="login container">
+        <form class="login__form">
+            <legend class="login__titulo">Iniciar Sesión</legend>
+            <div class="input-container">
+                <input name="email" id="login__email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                <label class="input-label" for="login__email">Email</label>
+                <span class="input-mensaje-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+                <input name="password" id="login__clave" class="input" type="password" placeholder="Contraseña" required data-tipo="password"  title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.">
+                <label class="input-label" for="login__clave">Contraseña</label>
+                <span class="input-mensaje-error">Este campo no es valido</span>
+            </div>
+            <button class="enviar boton" id="enviar__login" data-login>Iniciar Sesion</a>
         </form>
     </section>
     <section class="rodapie container">

@@ -1,0 +1,10 @@
+.seccion__productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:600px) {
+    .seccion__productos {
+        flex-wrap: wrap;
+    }
+}

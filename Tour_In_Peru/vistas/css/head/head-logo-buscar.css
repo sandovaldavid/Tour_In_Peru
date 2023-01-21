@@ -1,0 +1,12 @@
+.head__logo-buscar {}
+
+@media screen and (max-width:600px) {
+    .head__logo-buscar {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .head__logo-buscar {}
+}

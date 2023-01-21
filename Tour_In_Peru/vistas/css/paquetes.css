@@ -1,0 +1,169 @@
+/* Estilos generales */
+.catalogo {
+    margin: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Estilos para los paquetes */
+.paquete {
+    margin: 1%;
+    padding: 2%;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 25%
+}
+
+/* Estilos para las imágenes */
+.paquete img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para los títulos */
+.paquete h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los precios */
+.paquete .precio {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Estilos para los botones */
+.paquete .boton {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para las descripciones */
+.paquete .descripcion {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Estilos para el menú */
+.menu__lista {
+    align-items: center;
+}
+
+.menu__lista__item {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding-left: 2rem;
+    transition: 0.5s;
+}
+
+.menu__lista li:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu__lista__item:last-child {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0px) {
+    .menu__lista__item {
+        display: none;
+    }
+
+    #head_correo {
+        display: inline-block;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #head_correo {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .head__menu {
+        margin-right: 5rem;
+        float: right;
+    }
+
+    .menu__lista__item {
+        display: inline-block;
+    }
+
+    .menu__lista {
+        display: flex;
+    }
+}
+
+.head__nombre {
+    display: flex;
+    align-items: center;
+}
+
+.titulo__nombre {
+    order: 2;
+}
+
+@media screen and (min-width: 0px) {
+    .titulo__nombre {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .logo__nombre {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo__nombre {
+        width: 24px;
+        height: 24px;
+    }
+
+    .titulo__nombre {
+        font-size: 2em;
+    }
+}
+
+/* Estilos para las flechas */
+.flecha-izquierda,
+.flecha-derecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.flecha-izquierda img,
+.flecha-derecha img {
+    width: 100%;
+}
+
+.flecha-izquierda {
+    left: 2%;
+}
+
+.flecha-derecha {
+    right: 2%;
+}
