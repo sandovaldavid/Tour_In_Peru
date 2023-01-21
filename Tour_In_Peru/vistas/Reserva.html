@@ -1,0 +1,61 @@
+﻿
+<style>
+    /* Estilos generales */
+    form {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+    }
+
+    /* Estilos para las etiquetas label */
+    .lab_reserva {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    /* Estilos para los input */
+    .inp_reserva {
+        width: 100%;
+        padding: 12px 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* Estilos para el botón */
+     .inp_reserva [type="submit"] {
+        width: 100%;
+        padding: 12px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+</style>
+
+<form>
+    <label class="lab_reserva" for="idReserva"> ID de la reserva:</label>
+    <input class="inp_reserva" type="text" id="idReserva" name="idReserva">
+
+    <label class="lab_reserva" for="fechaReserva"> Fecha de la reserva:</label>
+    <input class="inp_reserva" type="date" id="fechaReserva" name="fechaReserva">
+
+    <label class="lab_reserva" for="numeroCuenta"> Número de cuenta:</label>
+    <input class="inp_reserva" type="number" id="numeroCuenta" name="numeroCuenta">
+
+    <label class="lab_reserva" for="tipo"> Tipo:</label>
+    <input class="inp_reserva" type="text" id="tipo" name="tipo">
+
+    <label class="lab_reserva" for="nombreAgencia"> Nombre de la agencia:</label>
+    <input class="inp_reserva" type="text" id="nombreAgencia" name="nombreAgencia">
+
+    <label class="lab_reserva" for="estado"> Estado:</label>
+    <input class="inp_reserva" type="text" id="estado" name="estado">
+
+    <input class="inp_reserva" type="submit" value="Guardar">
+</form>
