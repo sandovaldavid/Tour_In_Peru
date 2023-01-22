@@ -1,0 +1,15 @@
+.encabezado-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.titulo_encabezado-2, .boton_encabezado-2, .texto_encabezado-2{
+    display:block
+}
+.detalles{
+    display:flex;
+}
+.Lado_Iz, .Lado_Dr{
+    width:50%;
+    padding:2remx
+}

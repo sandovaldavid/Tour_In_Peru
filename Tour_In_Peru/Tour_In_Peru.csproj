@@ -9,19 +9,26 @@
   <ItemGroup>
     <Compile Remove="clases\NewFile.cs" />
     <Compile Remove="clases\Reservacion.cs" />
+    <Compile Remove="Controllers\Gestionreserva.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="clases\Lugar_Visitado" />
     <None Remove="clases\NewFile.txt" />
+    <None Remove="clases\NewFile1.txt" />
     <None Remove="clases\Reservacion" />
-    <None Remove="vistas\home.html" />
+    <None Remove="Controllers\Gestioncotizacion" />
+    <None Remove="Controllers\NewFile.txt" />
+    <None Remove="vistas\css\detalles.css" />
+    <None Remove="vistas\detalles.html" />
     <None Remove="vistas\NewFile.css" />
     <None Remove="vistas\NewFile.txt" />
     <None Remove="vistas\Reserva.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="vistas\home.html" />
+    <Content Include="vistas\css\detalles.css" />
+    <Content Include="vistas\detalles.html" />
   </ItemGroup>
 
   <ItemGroup>
