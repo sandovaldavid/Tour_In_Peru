@@ -1,8 +1,8 @@
-.head{
+.head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFFFFF;
+    background: #EAF2FD;
     height: 4rem;
     font-family: 'Raleway', sans-serif;
 }

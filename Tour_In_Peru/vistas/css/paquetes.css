@@ -167,3 +167,11 @@
 .flecha-derecha {
     right: 2%;
 }
+
+.titulo_paquetes {
+    padding-left: 8rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #ee7516;
+}

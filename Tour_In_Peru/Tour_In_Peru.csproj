@@ -14,9 +14,14 @@
   <ItemGroup>
     <None Remove="clases\NewFile.txt" />
     <None Remove="clases\Reservacion" />
+    <None Remove="vistas\home.html" />
     <None Remove="vistas\NewFile.css" />
     <None Remove="vistas\NewFile.txt" />
     <None Remove="vistas\Reserva.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="vistas\home.html" />
   </ItemGroup>
 
   <ItemGroup>
