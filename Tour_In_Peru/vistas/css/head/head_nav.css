@@ -10,4 +10,9 @@
 
 .head_li {
     margin-left: 3rem;
+    font-size:1rem;
+    font-weight:bold;
+}
+#home {
+    font-size: 1.5rem;
 }

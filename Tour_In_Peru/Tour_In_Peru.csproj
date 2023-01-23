@@ -20,15 +20,22 @@
     <None Remove="Controllers\Gestioncotizacion" />
     <None Remove="Controllers\NewFile.txt" />
     <None Remove="vistas\css\detalles.css" />
-    <None Remove="vistas\detalles.html" />
+    <None Remove="vistas\detalles_paquete1.html" />
+    <None Remove="vistas\detalles_paquete2.html" />
+    <None Remove="vistas\detalles_paquete3.html" />
     <None Remove="vistas\NewFile.css" />
     <None Remove="vistas\NewFile.txt" />
     <None Remove="vistas\Reserva.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="vistas\detalles_paquete2.html" />
+    <Compile Include="vistas\detalles_paquete3.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="vistas\css\detalles.css" />
-    <Content Include="vistas\detalles.html" />
+    <Content Include="vistas\detalles_paquete1.html" />
   </ItemGroup>
 
   <ItemGroup>
