@@ -13,9 +13,11 @@
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 0rem 1.5rem;
-    width: 10%;
-    transition: 0.5s
+    padding: 0.5rem 1.5rem;
+    width: 30%;
+    transition: 0.5s;
+    display: inline-block;
+    font-size: 2rem;
 }
 .boton_encabezado-2:hover {
     background: #ee5516;
@@ -68,4 +70,10 @@ td {
     border: 1px solid rgba(20,50,90,.25);
     background: rgba(0,102,255,.25);
     font-size:1.5rem;
+}
+.Lado_Dr {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    justify-content: center;
 }

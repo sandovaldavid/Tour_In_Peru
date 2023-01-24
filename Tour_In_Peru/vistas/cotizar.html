@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/detalles.css">
     <link rel="stylesheet" href="css/paquetes.css">
     <link rel="stylesheet" href="css/style-reserva.css">
+    <link rel="stylesheet" href="css/detalles.css">
 </head>
 <body>
     <section class="head container">
@@ -62,9 +63,39 @@
             <label class="lab_reserva" for="especificaciones"> Especificaciones:</label>
             <textarea style="height:5rem" class="inp_reserva" type="text" id="especificaciones" name="especificaciones"></textarea>
 
-            <input class="inp_reserva" type="submit" value="Guardar">
+             <button class="inp_reserva" type="submit"> <a href="detalle_reserva.html">Cotizar </a></button></a>
         </form>
-        </section>
+        <div class="programacion_div">
+            <h2 class="subtitulos">Programacion</h2>
+            <table class="tabla_programacion">
+                <tr>
+                    <td>01-Febrero</td>
+                    <td class="td_disponible">08-Febrero</td>
+                    <td>15-Febrero</td>
+                </tr>
+                <td>22-Febrero</td>
+                <td>28-Febrero</td>
+                <td>05-Marzo</td>
+                </tr>
+                <td>12-Marzo</td>
+                <td>20-Marzo</td>
+                <td class="td_disponible">28-Marzo</td>
+                </tr>
+            </table>
+            <div class="Leyenda">
+                <ul class="lista_disponibilidad">
+                    <li class="itens" id="li_disponible">
+                        <div class="cuadro_disponibilidad" id="div_disponible"></div>
+                        <p id="p_disponible"> Disponible</p>
+                    </li>
+                    <li class="itens" id="li_noDisponible">
+                        <div class="cuadro_disponibilidad" id="div_noDisponible"></div>
+                        <p id="p_noDisponible">No Disponible</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
         <section class="rodapie container">
             <img src="img/tour-in-peru-logo-nuevo.png" alt="tour-in-peru-logo-nuevo" class="rodapie__imagen">
             <div class="rodapie__sobreNosotros">

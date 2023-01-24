@@ -2,11 +2,12 @@
 .section_form {
     padding-top: 2rem;
     padding-bottom:2rem;
+    display:flex;
+    justify-content:space-around
 }
 
 form {
     width: 500px;
-    margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #e5e5e5;
@@ -38,4 +39,26 @@ form {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.cuadro_disponibilidad{
+    width:20px;
+    height:20px;
+    background:red;
+}
+.itens{
+    display:flex;
+    padding-bottom:1rem;
+}
+#li_disponible{
+    padding-top:1rem;
+}
+#div_disponible {
+    background: #ee7516;
+}
+#div_noDisponible {
+    background: rgba(0,102,255,.25);
+}
+.cuadro_disponibilidad {
+    margin-right: .5rem;
 }

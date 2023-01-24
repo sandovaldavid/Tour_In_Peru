@@ -1,0 +1,36 @@
+﻿.section_detallesReserva {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.detalles_reserva__titulo {
+    font-size: 2.5rem;
+    color: #ee7516;
+    font-weight: bold;
+}
+.detalles_reserva_subtitulo {
+    font-size: 2rem;
+    color: #ee7516;
+}
+.detalles_reserva_texto {
+    font-size: 1.5rem;
+    padding-left:1rem;
+}
+.detalles_reserva{
+    
+}
+.botones_detalleReserva{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-around;
+}
+.botones_re {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    background: #ee7516;
+    color:white;
+}

@@ -22,6 +22,6 @@
     }
 
     //Método para obtener una cotizacion
-    public Cotizacion obtenerCotizacion(int idCotizacion) { }
+    public Cotizacion obtenerCotizaciones(int idCotizacion) { }
 
-        
+}
