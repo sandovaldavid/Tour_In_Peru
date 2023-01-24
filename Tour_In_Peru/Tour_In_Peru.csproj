@@ -7,16 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="clases\NewFile.cs" />
-    <Compile Remove="clases\Reservacion.cs" />
+    <Compile Remove="modelo\NewFile.cs" />
+    <Compile Remove="modelo\Reservacion.cs" />
     <Compile Remove="Controllers\Gestionreserva.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="clases\Lugar_Visitado" />
-    <None Remove="clases\NewFile.txt" />
-    <None Remove="clases\NewFile1.txt" />
-    <None Remove="clases\Reservacion" />
+    <None Remove="modelo\Lugar_Visitado" />
+    <None Remove="modelo\NewFile.txt" />
+    <None Remove="modelo\NewFile1.txt" />
+    <None Remove="modelo\Reservacion" />
     <None Remove="Controllers\Gestioncotizacion" />
     <None Remove="Controllers\NewFile.txt" />
     <None Remove="vistas\css\detalles.css" />
